@@ -170,6 +170,10 @@ nav ul li{
     justify-content: center;
     margin-top: 20px;
 }
+#gallery h3{
+    color: rgb(28, 28, 134);
+    
+}
 .image-card{
     position: relative;
     width: 100%;
@@ -231,6 +235,20 @@ nav ul li{
     width: 100%;
     height: 100%;
 }
+.see-more{
+    margin: 50px auto;
+    height: 50px;
+    background-color:#FFD700;
+    width: 150px;
+    border-radius: 20px;
+    border: 2px solid rgb(28, 28, 134);
+}
+.see-more a{
+    color:rgb(28, 28, 134);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
 
 /* ----quote----- */
 #quote{
@@ -244,7 +262,27 @@ nav ul li{
   gap: 50px;
   width: 100%;
   height: 300px;
+  background: url("videos/art\ gallery.mp4");
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.6);
   
+}
+#quote-bg{
+    position: relative;
+    width: 100%;
+    height: 100%; 
+}
+.background-video-2::after {
+    content: " ";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
 }
 #quote p{
     font-size: 24px;
@@ -304,7 +342,16 @@ footer{
     text-decoration: none;
     text-align: left;
 }
-
+.social-icon img{
+    width: 20px;
+    height: 20px;
+}
+.social-icon{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 5px;
+}
 #border hr{
     color: white;
     height: 2px;
