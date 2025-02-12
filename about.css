@@ -1,0 +1,115 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+    background-color: #f8f8f8;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 6%;
+    background: #FFD700; 
+    /* background-color: #333; */
+    color: black;
+    backdrop-filter: blur(10px);
+    border: 2px solid;
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
+    margin-bottom: 250px;
+
+}
+#main-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 280px;
+}
+#main-head h3{
+    font-weight: 700;
+    font-size: 25px;
+}
+header #navigation{
+    display: flex;
+}
+nav ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(28, 28, 134);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul li a:hover{
+    border-bottom: 5px solid rgb(28, 28, 134);
+    font-size: 23px;
+
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+nav ul li{
+    list-style-type: none;
+   
+}
+/* header .navigation{
+    display: flex;
+    flex-direction: row;
+} */
+
+
+/* ----mission---- */
+#about{
+    margin-top: 150px;
+}
+.mission-image{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+    background:  url("mission\ image.png");
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+}
+.mission-and-vision{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: white;
+    padding: 50px;
+    z-index: ;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.mission-and-vision p{
+   font-size: 20px;
+  /* position: absolute;
+  z-index: 2;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+
+/* -----why choose us---- */
+#why-choose ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
