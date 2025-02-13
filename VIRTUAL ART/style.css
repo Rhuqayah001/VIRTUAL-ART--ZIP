@@ -1,4 +1,4 @@
-@media(min-width:600px){
+@media(max-width:600px){
     header{
         display: flex;
         flex-direction: column;
@@ -10,7 +10,7 @@
     #about{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        flex-basis: 48%;
     }
     #display{
         display: flex;
@@ -394,4 +394,22 @@ footer{
 footer .copyright p{
     text-align: center;
     padding: 20px;
+}
+
+
+/* -------media query------- */
+
+@media(max-width: 600px){
+    #display{
+        flex-direction: column;
+        
+    }
+    #about-text{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+    #about-image{
+        flex-basis: 100%;
+        margin: 20px;
+    }
 }
