@@ -32,7 +32,7 @@
            <video class="background-video" autoplay muted loop>
              <source src="videos/the header video.mp4" type="video/mp4">
            </video>
-           <div class="text-overlay">
+           <div class="header-video-text">
              <h1>RuqahArtShow</h1>
              <p>exploring the boundless world of virtual art</p>
            </div>
@@ -49,7 +49,7 @@
         <div id="about-text">
             <h2>About us</h2>
             <p>RuqahArtShow is a team of passionate art enthusiasts, technologists, and innovators dedicated to revolutionizing the way we experience and interact with virtual art. Our platform is designed to showcase the most exciting and innovative digital art from around the world, while providing a unique and immersive experience for our audience.</p>
-            <button id="about-btn">Explore</button>
+            <button id="about-btn"><a href="gallery.html">Explore</a></button>
         </div>
        </div>
     </section>
@@ -127,9 +127,13 @@
             <video class="background-video-2" autoplay muted loop>
                 <source src="videos/art gallery.mp4" type="video/mp4">
               </video>
-              <div class="text-overlay">
-                <p>The world is full of art that nobody ever sees and artist who never get found </p>
-                <p>The world is full of people who love art and people who love to visit the art exhibition</p> 
+              <div class="bg-video-quote">
+                    <div class="text-width">
+                        <p>The world is full of art that nobody ever sees and artist who never get found </p>
+                    </div>
+                    <div class="text-width">
+                        <p>The world is full of people who love art and people who love to visit the art exhibition</p> 
+                    </div>
               </div>
         </div>
         
@@ -140,6 +144,28 @@
        
        </div>
     </section>
+
+    <!-- -----Contact section---- -->
+     <section id="contact">
+
+           <div class="location">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15855.73788902932!2d3.3480805810183463!3d6.529960595837298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8dc9f794ac3b%3A0x4635ab63374beb78!2s23%20Coker%20St%2C%20Mushin%2C%20Lagos%20102215%2C%20Lagos!5e0!3m2!1sen!2sng!4v1739484798992!5m2!1sen!2sng" width="550" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+           </div>
+
+           <div class="contact-us">
+              <h2>Get in Touch</h2>
+              <form id="contact-form">
+
+                 <input type="text" name="name" id="name" placeholder="Your name" required><br>
+
+                 <input type="email" name="email" id="email" placeholder="Your email" required><br>
+                 
+                 <textarea  id="message" rows="10" cols="20" required placeholder="Your message"></textarea><br>
+
+                 <button type="submit">Submit</button>
+              </form>
+           </div>
+   </section>
 <!-- ---------------------------------    footer    --------------------------------------- -->
 
     <footer>
@@ -228,7 +254,7 @@
             <hr>
         </div>
         <div class="copyright">
-          <p>RuqahArtShow &copy; 2025</p>
+          <p>RuqahArtShow &copy; 2025. All Rights Reserved</p>
         </div>
        
     </footer>
