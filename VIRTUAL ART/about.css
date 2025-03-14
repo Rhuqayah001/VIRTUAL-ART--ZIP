@@ -11,11 +11,10 @@ header{
     left: 0;
     width: 100%;
     padding: 10px 6%;
-    background: #FFD700; 
+    background: beige; 
     /* background-color: #333; */
     color: black;
     backdrop-filter: blur(10px);
-    border: 2px solid;
     display: flex;
     flex-direction: row;
     z-index: 100;
@@ -152,7 +151,7 @@ nav ul li{
     width: 800px;
     margin: 0 auto;
     border-radius: 80px;
-    color: #FFD700;
+    color: beige;
     font-size: 25px;
     margin-bottom: 0px;
     text-align: center;
@@ -173,7 +172,7 @@ dt span{
     font-size: 22px;
 }
 #why-choose ul li{
-    background-color: #FFD700;
+    background-color: beige;
     width: 800px;
     margin: 0 auto;
     border-radius: 80px;
@@ -206,19 +205,9 @@ span{
     gap: 20px;
     justify-content: center;
     margin-top: 20px;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px; */
     
 }
 .team-member{
-    /* background-color: rgb(28, 28, 134);
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    transition: transform 0.3s ease-in-out; */
-
     background: white;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);

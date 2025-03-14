@@ -11,11 +11,10 @@ header{
     left: 0;
     width: 100%;
     padding: 10px 6%;
-    background: #FFD700; 
+    background: beige; 
     /* background-color: #333; */
     color: black;
     backdrop-filter: blur(10px);
-    border: 2px solid;
     display: flex;
     flex-direction: row;
     z-index: 100;
@@ -133,7 +132,15 @@ nav ul li{
     border-radius: 15px;
 }
 #contact button:hover{
-    background-color: black;
+    background-color: rgb(28, 28, 134);
+    color: #FFD700;
+}
+#contact button a{
+    text-decoration: none;
+    color: rgb(28, 28, 134);
+}
+#contact button a:hover{
+    color: rgb(28, 28, 134);
 }
 /* ----social links----- */
 .social-links{
@@ -202,6 +209,16 @@ footer{
     color: white;
     text-decoration: none;
     text-align: left;
+}
+.social-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.social-icon img{
+    width: 20px;
+    height: 20px;
 }
 
 #border hr{
